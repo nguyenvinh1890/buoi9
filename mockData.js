@@ -1,0 +1,103 @@
+/**
+ * Lab 04 - Mock Data
+ * Contains realistic data for FlatList demonstration (at least 10 items).
+ */
+
+export const MOCK_ITEMS = [
+  {
+    id: '1',
+    title: 'React Native Masterclass 2026',
+    subtitle: 'Xây dựng ứng dụng di động đa nền tảng từ cơ bản đến nâng cao với Expo & Redux.',
+    image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=200&auto=format&fit=crop&q=80',
+    tag: 'Mobile Dev',
+    rating: '4.9',
+  },
+  {
+    id: '2',
+    title: 'UI/UX Design for Mobile Apps',
+    subtitle: 'Thiết kế giao diện hiện đại, hệ thống Design System và tương tác người dùng chuẩn quốc tế.',
+    image: 'https://images.unsplash.com/photo-1581291518655-9523c932deb2?w=200&auto=format&fit=crop&q=80',
+    tag: 'UI/UX',
+    rating: '4.8',
+  },
+  {
+    id: '3',
+    title: 'TypeScript & Architecture Patterns',
+    subtitle: 'Nắm vững Clean Architecture, SOLID và quy chuẩn viết mã dễ bảo trì cho dự án lớn.',
+    image: 'https://images.unsplash.com/photo-1516116211227-bbc0429c0f99?w=200&auto=format&fit=crop&q=80',
+    tag: 'Architecture',
+    rating: '5.0',
+  },
+  {
+    id: '4',
+    title: 'Fullstack Node.js & GraphQL API',
+    subtitle: 'Xây dựng hệ thống Backend hiệu năng cao, bảo mật JWT và cơ sở dữ liệu phân tán.',
+    image: 'https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=200&auto=format&fit=crop&q=80',
+    tag: 'Backend',
+    rating: '4.7',
+  },
+  {
+    id: '5',
+    title: 'DevOps & CI/CD with GitHub Actions',
+    subtitle: 'Tự động hóa kiểm thử, đóng gói APK/IPA và phát hành ứng dụng lên App Store/Google Play.',
+    image: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=200&auto=format&fit=crop&q=80',
+    tag: 'DevOps',
+    rating: '4.9',
+  },
+  {
+    id: '6',
+    title: 'Cloud Native & Docker Containers',
+    subtitle: 'Triển khai hạ tầng microservices linh hoạt trên AWS và Kubernetes với zero-downtime.',
+    image: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=200&auto=format&fit=crop&q=80',
+    tag: 'Cloud',
+    rating: '4.6',
+  },
+  {
+    id: '7',
+    title: 'AI Integration in Mobile Apps',
+    subtitle: 'Tích hợp mô hình AI Gemini, xử lý ngôn ngữ tự nhiên và thị giác máy tính trên thiết bị.',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?w=200&auto=format&fit=crop&q=80',
+    tag: 'AI & ML',
+    rating: '4.9',
+  },
+  {
+    id: '8',
+    title: 'Flutter vs React Native Deep Dive',
+    subtitle: 'Phân tích hiệu năng render, bộ nhớ và chu kỳ cập nhật giữa hai framework phổ biến nhất.',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=200&auto=format&fit=crop&q=80',
+    tag: 'Cross-platform',
+    rating: '4.8',
+  },
+  {
+    id: '9',
+    title: 'Cybersecurity & Mobile Data Protection',
+    subtitle: 'Mã hóa lưu trữ SQLite, chứng chỉ SSL Pinning và phòng chống tấn công Reverse Engineering.',
+    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=200&auto=format&fit=crop&q=80',
+    tag: 'Security',
+    rating: '4.9',
+  },
+  {
+    id: '10',
+    title: 'State Management with Zustand & Redux',
+    subtitle: 'So sánh luồng dữ liệu một chiều, tối ưu render và caching dữ liệu offline trên mobile.',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=200&auto=format&fit=crop&q=80',
+    tag: 'State Mgmt',
+    rating: '4.8',
+  },
+  {
+    id: '11',
+    title: 'Animation & Gestures with Reanimated',
+    subtitle: 'Tạo trải nghiệm cảm ứng 60-120fps mượt mà với Native Driver và Gesture Handler.',
+    image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=200&auto=format&fit=crop&q=80',
+    tag: 'Animation',
+    rating: '5.0',
+  },
+  {
+    id: '12',
+    title: 'Automated Testing with Jest & Detox',
+    subtitle: 'Viết Unit test cho logic, Component test và E2E test cho toàn bộ luồng đăng nhập và danh sách.',
+    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=200&auto=format&fit=crop&q=80',
+    tag: 'Testing',
+    rating: '4.7',
+  },
+];
